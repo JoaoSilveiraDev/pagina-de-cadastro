@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+:root{
+    --cor-primaria: #E66953;
+    --cor-secundaria: #256b05;
+    --cor-terciária: #E67D6A;
+    --cor-quaternaria: #194b32;
+    --cor-quinternaria: #785EE6;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+}
+.cabecalho{
+    background-color: var(--cor-secundaria);
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cabecalho__navegacao{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.cabecalho__navegacao__botao{
+    text-decoration: none;
+    background-color: aliceblue;
+    padding: 10px 30px;
+    border-radius: 16px;
+    font-family: 'Krona one', sans-serif;
+    color: black;
+    font-size: 14px;
+}
+.cabecalho__navegacao__imagem{
+    height: 15px;
+    width: 15px;
+}
+.apresentacao{
+    background-color: rgb(44, 43, 43);
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apresentacao__caixa{
+    height: 80%;
+    width: 30%;
+    background-color: var(--cor-secundaria);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.apresentacao__caixa__texto{
+    font-family: 'Krona one', sans-serif;
+    font-size: 14px;
+}
+.apresentacao__caixa__texto__input__login{
+    height: 25px;
+    width: 250px;
+    text-align: center;
+    background-color: rgb(44, 43, 43);
+    color: aliceblue;
+    font-family: 'Krona one', sans-serif;
+    font-size: 8px;
+    border-radius: 8px;
+    border: 0.7px solid aliceblue;
+}
+.apresentacao__caixa__texto__input__senha{
+    height: 25px;
+    width: 240px;
+    text-align: center;
+    background-color: rgb(44, 43, 43);
+    color: aliceblue;
+    font-family: 'Krona one', sans-serif;
+    font-size: 8px;
+    border-radius: 8px;
+    border: 0.7px solid aliceblue;
+}
+.apresentacao__caixa__botao{
+    text-decoration: none;
+    background-color: aliceblue;
+    padding: 10px 30px;
+    border-radius: 16px;
+    font-family: 'Krona one', sans-serif;
+    color: black;
+    font-size: 14px;
+}
+.rodape{
+    background-color: var(--cor-secundaria);
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape__texto{
+    font-family: 'Krona one', sans-serif;
+    color: aliceblue;
+}
+.cabecalho__navegacao__botao:hover{
+    background-color: var(--cor-terciária);
+    transition: 1s;
+    
+}
+.apresentacao__caixa__botao:hover{
+    background-color: var(--cor-terciária);
+    transition: 1s;
+}
